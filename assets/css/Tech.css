@@ -162,15 +162,15 @@ header .nav ul li a > [aria-hidden="true"] {
     top: -30px;
     padding: 30px;
     text-align: center;
-    left: -10px;
+    left: -5px;
     z-index: 10;
     color: #ffff;
     font-size: 50px;
-    transform: translateX(5%);
+    transform: translateY(5%);
 }
 
 .numbers .First{
-    
+    /* transform: translateX(1%); */
 }
 
 .click:hover {
