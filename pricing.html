@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/price.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img id="menu" class="imglogo" src="./assets/images/shared/logo.svg" alt="logo of company">
+        </div>
+        <button class="imgmenu" aria-controls="menubtn" aria-expanded="false">
+           <!-- <span class="sr-only">Menu</span> -->
+        </button>
+        <div class="line">
+            
+        </div>
+        <nav class="nav" data-visible="false">
+            <ul id="menubtn" >
+                <li class="active">
+                    <a href="index.html"> <span aria-hidden="true"> 00 </span> Home 
+                    </a>
+                </li>
+                <li>
+                    <a href="destination-moon.html"> <span aria-hidden="true"> 01 </span> Destination
+                    </a>
+                </li>
+                <li><a href="Crew.html"> <span aria-hidden="true"> 02</span>  Crew
+                    </a>
+                </li>
+                <li><a href="Technology.html"> <span aria-hidden="true"> 03</span>  Technology
+                    </a>
+                </li>
+                <li><a class="underline" href="pricing.html"> <span aria-hidden="true"> 04</span> Price
+                </a>
+            </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- heading -->
+        <Section class="heading">
+            <div class="h1">
+                <h1>
+                    <span class="N3"> 04</span> <span>CHOOSE YOUR PLAN</span>
+                </h1>
+            </div>
+        </Section>
+
+        <!-- CONTENT -->
+        <section class="container">
+            <div class="cards">
+                <div class="card active" id="card1">
+                    <h2 class="h2"> Bronze Class</h2>
+                    <h3 class="h3" id="light-weight price"> $20,000 <span>/kg</span></h3>
+                    <ul class="catergory">
+                        <li>People <11 </li>
+                        <li>Luggages <50kg </li>
+                        <li>Animals<50kg </li>
+                        <li>Distance <500km </li>
+                        <li>Plants<50kg </li>
+                        <li>Small Equipment eg Microscope, Oscilloscope....etc</li>
+                    </ul>
+                    <button type="button" class="card-btn">Let's Talk</button>
+                </div>
+
+                <div class="card" id="card2">
+                    <h2 class="h2"> Sliver Class</h2>
+                    <h3 class="h3" id="middle-weight price"> $60,000 <span>/kg</span></h3>
+                    <ul class="catergory">
+                        <li>People >10 </li>
+                        <li>Luggages >50kg</li>
+                        <li>Distance 500km < x <1000km </li>
+                        <li>Animals>30kg </li>
+                        <li>Plants>50kg</li>
+                        <li>Mid-sized Equipment eg Planet probes, SUV's....etc</li>
+                    </ul>
+                    <button type="button" class="card-btn">Let's Talk</button>
+                </div>
+
+                <div class="card" id="card3">
+                    <h2 class="h2"> Gold Class</h2>
+                    <h3 class="h3" id="Heavy-weight price"> $100,000 <span>/kg</span></h3>
+                    <ul class="catergory">
+                        <li>People >40 </li>
+                        <li>Luggages >100kg</li>
+                        <li>Distance x <2000km </li>
+                        <li>Animals>60kg </li>
+                        <li>Plants>90kg</li>
+                        <li>Large-sized Equipment eg Satellites, Tucks....etc</li>
+                    </ul>
+                    <button type="button" class="card-btn">Let's Talk</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./assets/js/price.js"></script>
+</body>
+</html>
